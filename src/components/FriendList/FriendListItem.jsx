@@ -11,7 +11,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
     <div className={css.item}>
       <img className={css.photo} src={avatar} alt={name} width="48" />
       <p className={css.text}>{name}</p>
-      {status}
+      <>{status}</>
     </div>
   );
 };

@@ -1,7 +1,11 @@
 import Profile from "../Profile/Profile.jsx";
-import userData from "../../userData.json";
-import friends from "../../friends.json";
 import FriendList from "../FriendList/FriendList.jsx";
+import TransactionHistory from "../Transaction/TransactionHistory.jsx";
+
+import userData from "../Data/userData.json";
+import friends from "../Data/friends.json";
+import transaction from "../Data/transaction.json";
+
 import css from "./App.module.css";
 
 function App() {
@@ -14,8 +18,8 @@ function App() {
         location={userData.location}
         avatar={userData.avatar}
       />
-
       <FriendList friends={friends} />
+      <TransactionHistory items={transaction} />
     </div>
   );
 }

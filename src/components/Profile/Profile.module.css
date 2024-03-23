@@ -50,7 +50,7 @@
   background-color: rgb(189, 188, 188);
   border-radius: 5px;
 }
-.list-item {
+.list-items {
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -59,6 +59,6 @@
   width: 80px;
   border-right: 2px solid rgb(99, 98, 98);
 }
-/* .no-border {
+.no-border {
   border-right: none;
-} */
+}
